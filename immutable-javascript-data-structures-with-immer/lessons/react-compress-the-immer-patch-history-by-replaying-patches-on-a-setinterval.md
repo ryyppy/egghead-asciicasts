@@ -5,4 +5,4 @@ Instructor: 0:00 Another weak point of our current real-time synchronization app
 0:36 Another trick I want to share in this lesson is that we can compress the patches themselves. The idea of this approach is that at a certain form, we reapply all the patches we have so far to the original state we started with, and then we check what new patches this reapplication would result in. Because patches are computers' after effect, which results in a smaller set of patches.
 
 1:04 We use producer patches again. We apply the patches we've seen so far, and then we return the new set of patches the result of that. If we try that and we press reserve and unreserve a few times on the same item, and so then we see that this is also multiple patches which, once the compression kicks in, is compressed to only a single patch.
-
+test
